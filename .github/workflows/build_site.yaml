@@ -29,4 +29,4 @@ jobs:
         REPO: self
         BRANCH: build
         FOLDER: _site/
-        SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
