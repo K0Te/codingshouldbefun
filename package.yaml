@@ -1,0 +1,11 @@
+name: site
+ghc-options: -Wall -Werror
+dependencies:
+  - hakyll
+  - filepath
+  - base
+  - transformers
+
+executable:
+  main: site.hs
+  source-dirs: site

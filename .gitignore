@@ -21,3 +21,8 @@ cabal.project.local
 cabal.project.local~
 .HTF/
 .ghc.environment.*
+# Hakyll
+_cache
+_site
+# Stack
+.stack.yaml.lock
