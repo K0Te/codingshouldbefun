@@ -3,9 +3,31 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
-  color: #000;
+  /* font-size: 1.6rem;
+  color: #000; */
+  display: grid;
+
 }
+nav > img{
+  border-radius: 50%;
+  max-width: 10%;
+  max-height: 10%;
+  display: inline;
+}
+
+#grid { 
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vw;
+  }
+#grid > div {
+  font-size: 5vw;
+  padding: .5em;
+  background: gold;
+  text-align: center;
+}
+
 
 header {
   border-bottom: 0.2rem solid #000;
@@ -16,7 +38,7 @@ nav {
 }
 
 nav a {
-  font-size: 1.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
   color: black;
   text-decoration: none;
@@ -31,19 +53,19 @@ footer {
   color: #555;
 }
 
-h1 {
+/* h1 {
   font-size: 2.4rem;
 }
 
 h2 {
   font-size: 2rem;
-}
+} */
 
-article .header {
+/* article .header {
   font-size: 1.4rem;
   font-style: italic;
   color: #555;
-}
+} */
 
 .logo a {
   font-weight: bold;
@@ -51,9 +73,9 @@ article .header {
   text-decoration: none;
 }
 
-@media (max-width: 319px) {
+@media (max-width: 85ch) {
   body {
-    width: 90%;
+    width: 95%;
     margin: 0;
     padding: 0 5%;
   }
@@ -200,4 +222,4 @@ code span.ss { color: #bb6688; } /* SpecialString */
 code span.st { color: #4070a0; } /* String */
 code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
